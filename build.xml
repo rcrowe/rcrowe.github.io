@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="vivalacrowe" default="build">
-    
-    <target name="build">
-        <input propertyname="acceptingProjects" validargs="y,n">Are you currently accepting projects?</input>
-    </target>
+<project name="vivalacrowe" default="publish">
     
     <target name="jekyll">
         <delete dir="./_site" includeemptydirs="true" />
         <exec command="jekyll" />
     </target>
 
-    <target name="publish" depends="build">
+    <target name="publish">
         <exec command="git add ." />
         <exec command="git commit -m Latest" />
         <exec command="git push origin master" />
