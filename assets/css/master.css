@@ -83,7 +83,7 @@ footer {
 	margin: 0 0 0 23px;
 }
 
-.light {
+.borderradius .light {
     position: relative;
     left: -20px;
     top: 17px;
@@ -95,13 +95,13 @@ footer {
     border-radius: 4px;
 }
 
-.go {
+.borderradius .go {
     
     background-color: #69972A;
     
 }
 
-.stop {
+.borderradius .stop {
     background-color: #922A2A;
 }
 
