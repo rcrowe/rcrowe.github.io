@@ -105,6 +105,20 @@ footer {
     background-color: #922A2A;
 }
 
+.no-borderradius .light {
+	position: relative;
+    left: -20px;
+    top: 17px;
+    display: block;
+    height: 8px;
+    width: 8px;
+}
+
+.no-borderradius .stop {
+	background-image: url(../images/ie_stop.png);
+    background-repeat: no-repeat;
+}
+
 .container {
     width: 326px;
     margin: 0 0 0 108px;
