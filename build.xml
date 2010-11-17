@@ -3,9 +3,7 @@
 <project name="vivalacrowe" default="build">
     
     <target name="build">
-        <input propertyname="acceptingProjects" validargs="y,n">
-            Are you currently accepting projects?
-        </input>
+        <input propertyname="acceptingProjects" validargs="y,n">Are you currently accepting projects?</input>
     </target>
     
     <target name="jekyll">
