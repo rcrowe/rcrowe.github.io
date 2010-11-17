@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="vivalacrowe" default="publish">
+
+    <target name="publish">
+        
+        <exec command="git add ." />
+        <exec command="git commit -m Latest" />
+        <exec command="git push origin master" />
+        
+    </target>
+    
+</project>
