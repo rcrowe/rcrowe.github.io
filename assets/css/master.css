@@ -1,22 +1,22 @@
 * {
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
-	text-decoration: none;
-	border: none;
-	list-style: none;
-	outline: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    outline: none;
 }
 
 html {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	border-top: 6px solid #E2E2E2;
-	border-bottom: 6px solid #E2E2E2;
-	background-image: url(../images/bg.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 6px solid #E2E2E2;
+    border-bottom: 6px solid #E2E2E2;
+    background-image: url(../images/bg.png);
 }
 
 body {
@@ -80,7 +80,7 @@ footer {
     height: 44px;
     width: 196px;
     line-height: 23px;
-	margin: 0 0 0 23px;
+    margin: 0 0 0 23px;
 }
 
 .borderradius .light {
@@ -96,9 +96,7 @@ footer {
 }
 
 .borderradius .go {
-    
     background-color: #69972A;
-    
 }
 
 .borderradius .stop {
@@ -106,7 +104,7 @@ footer {
 }
 
 .no-borderradius .light {
-	position: relative;
+    position: relative;
     left: -20px;
     top: 17px;
     display: block;
@@ -115,7 +113,7 @@ footer {
 }
 
 .no-borderradius .stop {
-	background-image: url(../images/ie_stop.png);
+    background-image: url(../images/ie_stop.png);
     background-repeat: no-repeat;
 }
 
