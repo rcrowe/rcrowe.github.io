@@ -112,6 +112,11 @@ footer {
     width: 8px;
 }
 
+.no-borderradius .go {
+    background-image: url(../images/ie_go.png);
+    background-repeat: no-repeat;
+}
+
 .no-borderradius .stop {
     background-image: url(../images/ie_stop.png);
     background-repeat: no-repeat;
