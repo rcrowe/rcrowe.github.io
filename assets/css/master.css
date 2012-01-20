@@ -15,17 +15,16 @@ html {
     bottom: 0;
     left: 0;
     border-top: 6px solid #E2E2E2;
-    border-bottom: 6px solid #E2E2E2;
     background-image: url(../images/bg.png);
 }
 
 body {
     font: 11px/1.231 "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     position: absolute;
-    top: 50%;
+    top: 50px;
     left: 50%;
     width: 760px;
-    margin: -180px 0 0 -300px;
+    margin: 0 0 0 -300px;
     text-shadow: #FFF 0 1px 0;
 }
 
@@ -56,12 +55,16 @@ p {
     margin: 0 0 20px 0;
 }
 
-header, footer {
+.clear {
+    clear: both;
+}
+
+header, #contact {
     display: block;
 }
 
-footer {
-    margin: 40px 0 0 0;
+#contact {
+    margin: 40px 0 30px 108px;
 }
 
 #logo {
@@ -131,4 +134,24 @@ footer {
 
 #about {
     margin-top: 70px;
+}
+
+.project {
+    width: 520px;
+    margin: 0 0 30px 108px;
+}
+.project hr {
+    width: 326px;
+}
+.project .image {
+    width: 322px;
+    float: left;
+    margin: 0 15px 0 0;
+    padding: 2px;
+}
+.project .details {
+    margin: 0 0 0 15px;
+}
+.project .details h3 {
+    margin: 0 0 10px;
 }
