@@ -1,17 +1,5 @@
-## MAC OS
 .DS_Store
-
-## TEXTMATE
-*.tmproj
-tmtags
-
-## EMACS
 *~
 \#*
 .\#*
-
-## VIM
 *.swp
-
-## Ignore Jekyll folder
-_site
